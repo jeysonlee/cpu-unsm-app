@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: spring-boot-app
+    env: java
+    buildCommand: ""
+    startCommand: "java -jar mi-aplicacion-0.0.1-SNAPSHOT.jar"
+    envVars:
+      - key: SERVER_PORT
+        value: 8080
